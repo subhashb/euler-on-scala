@@ -1,0 +1,24 @@
+(
+ :root-dir "/Users/subhashb/workspace/scala/euler-on-scala"
+ :cache-dir "/Users/subhashb/workspace/scala/euler-on-scala/.ensime_cache"
+ :name "root"
+ :java-home "/Library/Java/JavaVirtualMachines/jdk1.7.0_76.jdk/Contents/Home"
+ :java-flags ("-Xms1024m" "-Xmx1024m" "-XX:ReservedCodeCacheSize=128m" "-XX:MaxPermSize=256m")
+ :reference-source-roots ("/Library/Java/JavaVirtualMachines/jdk1.7.0_76.jdk/Contents/Home/src.zip")
+ :scala-version "2.11.6"
+ :compiler-args nil
+ 
+ :subprojects ((
+   :name "root"
+   :module-name "root"
+   :source-roots ("/Users/subhashb/workspace/scala/euler-on-scala/src/main/scala" "/Users/subhashb/workspace/scala/euler-on-scala/src/main/scala-2.11" "/Users/subhashb/workspace/scala/euler-on-scala/src/test/scala-2.11" "/Users/subhashb/workspace/scala/euler-on-scala/src/test/scala" "/Users/subhashb/workspace/scala/euler-on-scala/src/test/java" "/Users/subhashb/workspace/scala/euler-on-scala/src/main/java")
+   :target "/Users/subhashb/workspace/scala/euler-on-scala/target/scala-2.11/classes"
+   :test-targets ("/Users/subhashb/workspace/scala/euler-on-scala/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/Users/subhashb/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/Users/subhashb/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.6-javadoc.jar" "/Users/subhashb/workspace/scala/euler-on-scala/target/scala-2.11/euler-on-scala_2.11-0.1.0-javadoc.jar")
+   :reference-source-roots ("/Users/subhashb/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.6-sources.jar")))
+ 
+)
